@@ -10,8 +10,13 @@ public class First {
         this.str = str;
     }
 
-    void ShowStr() {
+    private void ShowStr() {
+        // methodu private belirleyip başka bir method aracılığıyla ulaşabiliriz.
         System.out.println(this.str);
     }
 
+    void show() {
+        // bu method ile ShowStr() methoduna dışarıdan erişim sağlayabiliyoruz.
+        this.ShowStr();
+    }
 }
