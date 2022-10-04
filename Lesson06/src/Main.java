@@ -6,11 +6,13 @@ public class Main {
 		Akademisyen a1 = new Akademisyen("Ahmet Saygılı", "050000000", "asaygili@nku.edu.tr","Bilgisayar Mühendisliği","Prof.");
 		
 		c1.giris();
-		a1.giris();
 		a1.derseGir();
 		
 		// Method'u aşırı yükleme (OverLoadig)
 		a1.giris("08.45");
+		
+		// Method'u ezme / geçersiz kılma (Overriding)
+		a1.giris();
 	}
 
 }
