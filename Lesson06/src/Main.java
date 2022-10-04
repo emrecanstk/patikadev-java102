@@ -8,6 +8,9 @@ public class Main {
 		c1.giris();
 		a1.giris();
 		a1.derseGir();
+		
+		// Method'u aşırı yükleme (OverLoadig)
+		a1.giris("08.45");
 	}
 
 }

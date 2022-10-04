@@ -37,6 +37,11 @@ public class Calisan {
 	public void giris() {
 		System.out.println(this.adSoyad + " üniversiteye giriş yaptı.");
 	}
+	
+	// Method'u aşırı yükleme (OverLoadig)
+	public void giris(String girisSaati) {
+		System.out.println(this.adSoyad+" "+girisSaati+" saatinde giriş yaptı");
+	}
 
 	public void cikis() {
 		System.out.println(this.adSoyad + " üniversiteden çıkış yaptı.");
